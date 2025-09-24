@@ -14,7 +14,6 @@
 
         <form method="GET" action="{{ route('exercises.index') }}" class="mb-3">
             <input type="date" name="data_inicio" value="{{ request('data_inicio') }}">
-
             <input type="text" name="nome" placeholder="Tipo de exercício" value="{{ request('nome') }}">
             <button type="submit" class="btn btn-secondary">Filtrar</button>
         </form>
